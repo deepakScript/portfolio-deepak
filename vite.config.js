@@ -3,6 +3,6 @@ import react from '@vitejs/plugin-react'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: "https://deepakScript.github.io/portfolio-deepak/",
+  base: "/portfolio-deepak/",
   plugins: [react()],
 })
