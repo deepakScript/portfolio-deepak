@@ -1,5 +1,7 @@
+import tailwindScrollbar from "tailwind-scrollbar";
+
 /** @type {import('tailwindcss').Config} */
-module.exports = {
+export default {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
     extend: {
@@ -39,7 +41,7 @@ module.exports = {
         greenShadow: "0px 0px 188px -14px rgba(237,255,32,1)",
         testShwdow: "11px 0px 13px -15px rgba(0,0,0,1)",
       },
-    },
-  },
-  plugins: [require("tailwind-scrollbar")],
+      plugins: [tailwindScrollbar],
+    }
+  }
 };
